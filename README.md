@@ -3,9 +3,9 @@
 Movie api that fetches movie from external api base on title supplied:
 
 1.  POST /movies
-   1. Authenticated users can add movies based on title provided and additional movies is fetched from    https://omdbapi.com/ 
-   2. Basic users can add only five movies in a month
-   3. Authenticated users can add movies using the below curl request
+   1. Authenticated users can add movies based on title provided and additional movies is fetched from    https://omdbapi.com/.
+   2. Basic users can add only five movies in a month.
+   3. Authenticated users can add movies using the below curl request.
 
 
 
@@ -46,6 +46,10 @@ docker-compose up -d
 
 
 By default the application starts on port: 3000
+
+##Dont have docker and docker-compose
+
+Just cd into root directory and use "npm start" so you run locally. 
 
 ## Database 
 
