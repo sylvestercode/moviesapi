@@ -6,6 +6,9 @@ Movie api that fetches movie from external api base on title supplied:
    1. Authenticated users can add movies based on title provided and additional movies is fetched from    https://omdbapi.com/ 
    2. Basic users can add only five movies in a month
    3. Authenticated users can add movies using the below curl request
+
+
+2. `GET /movies`
   
    ```
  curl -X POST http:localhost:3000/movies
