@@ -37,6 +37,18 @@ curl -X POST http:localhost:3000/auth
 
 
 
+
+To Authorize user kindly use the curl request below
+
+    ```
+curl -X POST http:localhost:3000/auth
+   -H 'Content-Type: application/json'
+   -d '{"username": "basic-thomas","password": "sR-_pcoow-27-6PAwCD8"}'
+
+   ```
+
+
+
 ## Prerequisites to run locally
 
 You need to have `docker` and `docker-compose` installed on your computer to run the service
