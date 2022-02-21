@@ -1,0 +1,21 @@
+{
+  "name": "movieapi",
+  "version": "1.0.0",
+  "description": "We'd like you to build a simple Movie API. It should provide two endpoints:",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Sylvester Izuyon",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "body-parser": "1.19.0",
+    "dotenv": "^16.0.0",
+    "express": "4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.2"
+  }
+ 
+}
