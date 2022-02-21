@@ -12,6 +12,7 @@ Movie api that fetches movie from external api base on title supplied:
    -H 'Content-Type: application/json'
    -H "Authorization: Bearer {token}"
    -d '{"title":"batman"}'
+   
    ```
 
 2. `GET /movies`
