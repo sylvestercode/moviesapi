@@ -8,15 +8,14 @@ Movie api that fetches movie from external api base on title supplied:
    3. Authenticated users can add movies using the below curl request
 
 
-2. `GET /movies`
-  
-   ```
+
+   `
  curl -X POST http:localhost:3000/movies
    -H 'Content-Type: application/json'
    -H "Authorization: Bearer {token}"
    -d '{"title":"batman"}'
    
-   ```
+   `
 
 2. `GET /movies`
    1. Get movies posted by a particular user by ID
