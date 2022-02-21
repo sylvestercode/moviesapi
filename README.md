@@ -9,13 +9,13 @@ Movie api that fetches movie from external api base on title supplied:
 
 
 
-   `
+   ```
  curl -X POST http:localhost:3000/movies
    -H 'Content-Type: application/json'
    -H "Authorization: Bearer {token}"
    -d '{"title":"batman"}'
    
-   `
+   ```
 
 2. `GET /movies`
    1. Get movies posted by a particular user by ID
@@ -35,17 +35,6 @@ curl -X POST http:localhost:3000/auth
 
    ```
 
-
-
-
-To Authorize user kindly use the curl request below
-
-    ```
-curl -X POST http:localhost:3000/auth
-   -H 'Content-Type: application/json'
-   -d '{"username": "basic-thomas","password": "sR-_pcoow-27-6PAwCD8"}'
-
-   ```
 
 
 
